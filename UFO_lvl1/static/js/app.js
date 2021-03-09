@@ -25,34 +25,3 @@ function handleClick() {
     d3.select('input').property('value', ''); 
     showtable(filterData);
 };
-
-
-// //event and button for text input 
-// var sightings = data; 
-// var button = d3.select("#filter-btn"); 
-// var form = d3.select("#form"); 
-
-// button.on("click", runSubmit); 
-// form.on("submit", runSubmit); 
-
-// function runSubmit(){ 
-//     d3.event.preventDefault(); 
-//     var inputElement = d3.select("#datetime");
-//     var inputValue = inputElement.property("value"); 
-//     // console.log(inputValue);
-    
-//     var filteredData = sightings.filter(sighting => sighting.datetime === inputValue); 
-//     // console.log(filteredData);};  
-
-
-
-
-
-    // return {
-    //         init: function() {
-    //             var result = filteredData.getElementsByClassName("tr");
-    //             sightings.forEach.call(result, function(input) {
-    //                 input.oninput = _onInputSearch;
-    //             });
-    //         }
-    //     }};
